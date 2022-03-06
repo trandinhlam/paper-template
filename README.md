@@ -1,10 +1,10 @@
-Vietnamese Paper template
+# Vietnamese Paper template
 
-tdlam123@gmail.com
+author: tdlam123@gmail.com
 
 _______
 
-# Hướng dẫn install Latex
+## Hướng dẫn install Latex
 + install textlive
 
         $ sudo apt install texlive-latex-extra
