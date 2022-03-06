@@ -18,3 +18,7 @@ _______
 + cài thêm bộ code tiếng Việt
 
         $ sudo apt-get install texlive-lang-other
+
+# Các tài liệu tham khảo
++ [Thesis Template - Tilburg Science Hub](https://tilburgsciencehub.com/building-blocks/collaborate-and-share-your-work/write-your-paper/latex-templates/)
++ [Ong Xuan Hong - LaTeX-thesis-template](https://github.com/ongxuanhong/LaTeX-thesis-template)
