@@ -1,0 +1,67 @@
+\documentclass[a4paper,12pt]{article}
+% Set your margins here
+\usepackage[margin=1in]{geometry}
+% !TEX encoding = UTF-8 Unicode
+% Set your language
+% \usepackage[utf8]{vietnam}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath}
+\usepackage{mathpazo} % Use Palatino font
+% Set global line spacing
+% \renewcommand{\baselinestretch}{1.5}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{booktabs}
+% Allow hyperref with click-through sections and references
+\usepackage{hyperref}
+% \usepackage[unicode=true,pdfusetitle,bookmarks=true,bookmarksnumbered=true,bookmarksopen=true,bookmarksopenlevel=1,breaklinks=false,pdfborder={0 0 0},pdfborderstyle={},backref=false]{hyperref}
+\bibliographystyle{plain}
+% for author
+\usepackage{authblk}
+\usepackage{setspace} % To set line spacing locally
+\usepackage{enumitem}
+
+
+\inputencoding{latin2}
+\inputencoding{utf8}
+%
+\title{Identifying Influential Users in Social Network with
+Review Data}	%% title
+\date{} % Custom empty date
+\author{Yilin He}			%% author's name
+\affil{
+    \emph{
+        Machine Learning Department\break
+        School of Computer Science\break
+        Carnegie Mellon University, Pittsburgh, PA, 15213
+    }
+}
+
+\begin{document}
+\maketitle
+
+%
+\newcommand{\argmax}{\arg\!\max}
+
+
+%
+% \tableofcontents
+% Abstract
+\begin{abstract}
+    \addcontentsline{toc}{section}{abstract}
+    \input{sections/abstract}
+\end{abstract}
+
+\newpage\cleardoublepage
+\input{sections/introduction}
+\input{sections/relatedWork}
+\input{sections/problemDefinition}
+\input{sections/data}
+
+%
+\nocite{*}
+\bibliography{references}\newpage\cleardoublepage
+%
+\end{document}

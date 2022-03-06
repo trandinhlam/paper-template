@@ -1,0 +1,25 @@
+\section{Data}
+In this paper, we used a data set from Yelp Dataset Challenge. The entire data set contains
+a network of 552 thousand users with 3.5 million edges and their 2.2 million reviews for
+77 thousand businesses from ten cities. A subset of the dataset is used in our analysis
+which contains all 2724 businesses which are located in Pittsburgh. Among the 17124 users
+have reviewed at least one of the selected businesses, we then selected the largest connected
+components in this subset of the social network containing 5691 users. Rest of the connected
+component only contains eight users or less and is thus ignored for rest of the study. The final
+data contains 5691 users with 18115 social ties and their 40077 reviews for 2724 Pittsburgh
+businesses. For our analysis, we used the following information from the dataset:
+
+\textbf{User file:}
+\begin{enumerate}[wide=0pt, labelwidth=40pt]
+    \item[\emph{uid}] An unique identifier for each user
+    \item[\emph{friends}] A list of uid for current user’s friends in the social network. This friendship
+\end{enumerate}
+
+\textbf{Review file:}
+\begin{enumerate}[wide=0pt, labelwidth=40pt]
+    \item[\emph{uid}] The unique identifier of reviewer.
+    \item[\emph{sid}] The unique identifier of the business being reviewed.
+    \item[\emph{review timestamp}] The date of which the review was made, counting from 1/1/2000 in the
+    unit of days.
+    \item[\emph{rating}] User’s rating for this business, ranging from 1 star to 5 stars in integers.
+\end{enumerate}

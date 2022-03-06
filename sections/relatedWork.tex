@@ -1,0 +1,12 @@
+\section{Related Work}
+Richardson et al. \cite{Baroni1984} first started the study of influence maximization problem using proba-
+bilistic approaches and later Kempe et al. formulated the problem as finding a small subset
+of nodes k that maximizes the expected number of influenced nodes under a stochastic cas-
+cade model. This problem is proved to be NP-hard and a greedy algorithm is provided to
+solve the problem. However, this algorithm has a huge drawback of efficiency, so a lot of
+more recent work have been focusing on improving the scalability of the algorithm. In \cite{Baroni1985},
+2Leskovec et al. proposed ”lazy forward” algorithm which largely improved the efficiency of
+the algorithm by exploiting the submodularity property of the objective matrix. Chen et al.
+\cite{Baroni1986} later proposed yet another greedy algorithm for with new degree discount heuristics that
+further improves the efficiency even further while achieving a matching performance to the
+original greedy algorithm \cite{Baroni1987}.
